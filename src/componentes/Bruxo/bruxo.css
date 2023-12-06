@@ -1,5 +1,6 @@
 .bruxo {
     width: 280px;
+    position: relative;
 }
 
 .bruxo .cabecalho {
@@ -34,4 +35,14 @@
     line-height: 22px;
     color: #212121;
     margin: 15px 0 0;
+}
+
+.deletar{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.favorito{
+    margin-top: 10px;
 }
